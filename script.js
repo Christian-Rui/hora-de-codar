@@ -15,7 +15,7 @@ for (var i = 0; i < tiposDeFigura.length; i++) {
 }
 
 do {
-    var indiceFiguraPlana = parseInt(prompt("=========| Calculadora de Área de Figuras Planas |========= \n\nDigite qual opção deseja calcular:\n" + opcaoFiguraPlana + "\n[ 0 ] ---> Encerrar Calculo <---\n "));
+    var indiceFiguraPlana = parseInt(prompt("======| Calculadora de Área de Figuras Planas |====== \n\nDigite qual opção deseja calcular:\n" + opcaoFiguraPlana + "\n[ 0 ] ---> Encerrar Calculo <---\n "));
 
     if (indiceFiguraPlana == 0){
         ApresentarNaTela("Calculadora de área de figuras planas foi encerrada!!")
